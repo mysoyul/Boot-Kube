@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: boot-kube
-          image: bmsvega2k/boot-kube:0.1
+          image: kubevega2k/boot-kube:0.1

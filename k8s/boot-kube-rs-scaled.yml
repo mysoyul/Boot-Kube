@@ -6,14 +6,14 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: boot-kube
+      app: boot-kube-basic
       tier: app
   template:
     metadata:
       labels:
-        app: boot-kube
+        app: boot-kube-basic
         tier: app
     spec:
       containers:
-        - name: boot-kube
-          image: bmsvega2k/boot-kube:0.1
+        - name: boot-kube-container
+          image: kubevega2k/boot-kube:0.2

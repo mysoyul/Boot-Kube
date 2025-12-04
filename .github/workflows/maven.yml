@@ -16,11 +16,10 @@ on:
 
 env:
   DOCKER_IMAGE: boot-kube
-  DOCKER_TAG: 0.2
+  DOCKER_TAG: 0.3
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
